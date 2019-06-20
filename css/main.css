@@ -1,0 +1,140 @@
+.logo {
+  width: 20%;
+  height: 100%;
+}
+
+.logoname {
+  width: 10%;
+  height: 50%;
+  margin: 2% 0;
+}
+
+.garage {
+  margin: 0% 0% 1% 1%;
+}
+
+.sectionsub1 {
+  margin-top: 10px;
+}
+
+.headerlogo {
+  border: 1px solid red;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  height: 5.2em;
+  justify-content: space-between;
+  padding: 0% 1px;
+}
+
+.page {
+  font-style: normal;
+  color:green;
+}
+
+.myimage {
+  width: 100%;
+  height: 400px;
+  border-radius: 15px;
+  border: 1px solid #F94141;
+}
+
+.sectionsub2 {
+  border: 1px solid #F94141;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: #808B96  ; */
+}
+
+.articlepart {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  justify-content: space-around;
+
+
+}
+
+.img {
+  width: 250px;
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+.part1 {
+  width: auto;
+}
+
+.part2 {
+  margin: auto;
+  text-align: center;
+  background: #45B39D   ;
+  border-radius: 15px;
+}
+
+.footersec {
+  height: 30px;
+  background: #F7FBFD;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid #F94141;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-style: italic;
+}
+.totalbody{
+  background-color:#FDFEFE;
+
+}
+@media screen and (min-width:320px) and (max-width:500px) {
+  .articlepart {
+    width: 100%;
+  }
+
+  .logoname {
+    width: 30%;
+    height: 70%;
+    margin: 2% 0;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .mainsection {
+    display: inline;
+    justify-content: space-around;
+  }
+
+  .sectionsub2 {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-around; */
+    /* background: red; */
+  }
+}
+
+@media screen and (min-width:501px) and (max-width:780px) {
+  .sectionsub2 {
+    width: 100%;
+  }
+
+  .articlepart {
+    width: 45%;
+
+  }
+
+  .part1 {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%;
+  }
+}
